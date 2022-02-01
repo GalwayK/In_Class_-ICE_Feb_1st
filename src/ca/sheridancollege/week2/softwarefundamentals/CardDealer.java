@@ -17,6 +17,8 @@ public class CardDealer
         
         System.out.printf("Suit: %s, Value: %d\n", newCard.getSuit(), newCard.getValue());
         
+        Card secondCard = new Card("Diamonds", 10);
+        
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
     }
