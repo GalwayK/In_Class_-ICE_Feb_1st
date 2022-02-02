@@ -15,6 +15,8 @@ public class CardDealer
     {
         Card newCard = new Card("Hearts", 7);
         
+        Card testCard = new Card();
+        
         System.out.printf("Suit: %s, Value: %d\n", newCard.getSuit(), newCard.getValue());
         
         Card secondCard = new Card("Diamonds", 10);
